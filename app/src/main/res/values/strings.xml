@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Area &amp; Unit Converter</string>
+    <string name="area">AREA</string>
+    <string name="converter">Converter</string>
+    <string name="welcome">Welcome!</string>
+    <string name="title">Choose a figure:-</string>
+    <string name="triangle">TRIANGLE</string>
+    <string name="square">SQUARE</string>
+    <string name="pentagon">PENTAGON</string>
+    <string name="rectangle">RECTANGLE</string>
+    <string name="heading">Enter dimensions of the figure:-</string>
+    <string name="suggest">Choose a figure :-</string>
+
+    <string-array name="lengths">
+        <item>Kilometer</item>
+        <item>Meter</item>
+        <item>Centimeter</item>
+        <item>Milimeter</item>
+        <item>Feet</item>
+        <item>Inches</item>
+    </string-array>
+</resources>

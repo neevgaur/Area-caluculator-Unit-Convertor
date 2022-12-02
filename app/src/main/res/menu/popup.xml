@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="Inches"
+        android:id="@+id/inches"/>
+    <item android:title="Feet"
+        android:id="@+id/feet"/>
+    <item android:title="Kilometer"
+        android:id="@+id/kilometer"/>
+    <item android:title="Meter"
+        android:id="@+id/meter"/>
+    <item android:title="Centimeter"
+        android:id="@+id/centimeter"/>
+</menu>

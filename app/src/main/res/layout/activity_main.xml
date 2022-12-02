@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#FFF5E4"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/welcome"
+        android:textColor="#850E35"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginBottom="150dp"/>
+
+    <FrameLayout
+        android:id="@+id/btnArea"
+        app:layout_constraintTop_toBottomOf="@+id/ImageView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:background="@drawable/ripple_accent_border">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Area"
+            android:layout_gravity="center"
+            android:textColor="@color/text"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/btnConverter"
+        android:layout_marginTop="20dp"
+        app:layout_constraintTop_toBottomOf="@+id/ImageView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:background="@drawable/ripple_accent_border">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Convertor"
+            android:layout_gravity="center"
+            android:textColor="@color/text"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            />
+
+    </FrameLayout>
+
+</LinearLayout>

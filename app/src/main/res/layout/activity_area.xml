@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".areaActivity"
+    android:background="#FFF5E4"
+    android:orientation="vertical"
+    android:gravity="center"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/suggest"
+        android:layout_marginStart="10dp"
+        android:layout_marginBottom="30dp"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="#850E35"/>
+
+    <Button
+        android:id="@+id/triangle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#FFC4C4"
+        android:layout_margin="5dp"
+        android:text="@string/triangle"
+        android:textStyle="bold"
+        android:textColor="#850E35"
+        android:textSize="15sp"
+        />
+
+    <Button
+        android:id="@+id/rectangles"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#FFC4C4"
+        android:layout_margin="5dp"
+        android:text="@string/rectangle"
+        android:textStyle="bold"
+        android:textColor="#850E35"
+        android:textSize="15sp"
+        />
+
+    <Button
+        android:id="@+id/square"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#FFC4C4"
+        android:layout_margin="5dp"
+        android:text="@string/square"
+        android:textStyle="bold"
+        android:textColor="#850E35"
+        android:textSize="15sp"
+        />
+
+    <Button
+        android:id="@+id/pentagon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#FFC4C4"
+        android:layout_margin="5dp"
+        android:text="@string/pentagon"
+        android:textStyle="bold"
+        android:textColor="#850E35"
+        android:textSize="15sp"
+        />
+</LinearLayout>
